@@ -1,18 +1,18 @@
 [![xxReinsno](https://img.shields.io/badge/xxReinsno-github-blue?logo=github)](https://github.com/xxReinsno)
 
-He is a Ph.D. student at Nanyang Technological University (NTU), Singapore, advised by Prof. Ziwei Wang in [PINELab](https://pine-lab-ntu.github.io/index.html). He received his B.Eng. degree from Tsinghua University, China, in 2025. His research interests include robotics, artificial intelligence, and reinforcement learning.
+He is a Ph.D. student at Nanyang Technological University (NTU), Singapore, advised by Prof. Ziwei Wang in [PINELab](https://pine-lab-ntu.github.io/index.html). He received his B.Eng. degree from Tsinghua University (THU), China, in 2025. His research interests include robotics, artificial intelligence, and reinforcement learning.
 
-#### Contact
+## Contact
 
 - Email: yuquanxue9@gmail.com
 - WeChat: xxReinsnoTHU
 
-#### Education
+## Education
 
 - B.Eng, Elite Program of Mechanical Engineering, Tsinghua University, 2021-2025
 - Ph.D, School of Electrical and Electronic Engineering, Nanyang Technological University, 2025-Present
 
-#### Research Interests
+## Research Interests
 
 - Robotics
 - Artificial Intelligence

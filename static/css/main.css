@@ -8,11 +8,17 @@
 :root {  
     --h-title-color: #64b5f6; 
     --bs-body-bg: #1a1a1a; 
-    --bs-body-color: #e0e0e0; 
+    --bs-body-color: #e0e0e0;
+    --bs-link-color: #64b5f6; /* 浅蓝色链接 */  
+    --bs-link-hover-color: #90caf9; /* 悬停时更浅的蓝色 */ 
+}
+
+#home-subtitle {  
+    font-family:  "PingFang SC", "苹方-简", Arial,-apple-system, BlinkMacSystemFont, sans-serif !important;  
 }
 
 .header {
-    border-bottom: solid 2px var(--bs-blue);
+    border-bottom: none;
     z-index: 10000;
     background-color: #1a1a1a !important;
 }
@@ -64,6 +70,13 @@ section .main-body{
     font-size: 1.3rem;
     font-weight: 200;
     line-height: 2.4rem;
+}
+
+section .main-body h3,  
+section .main-body h4,  
+section .main-body h5,  
+section .main-body h6 {  
+    font-family: "Josefin Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif !important;  
 }
 
 .bg-gradient-primary-to-secondary-light {  
