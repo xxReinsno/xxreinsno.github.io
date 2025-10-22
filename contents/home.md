@@ -1,17 +1,21 @@
 
 
-[![senli1073](https://img.shields.io/badge/senli1073-github-blue?logo=github)](https://github.com/senli1073)
+[![xxReinsno](https://img.shields.io/badge/xxReinsno-github-blue?logo=github)](https://github.com/xxReinsno)
 
-He is currently a Fellow in the Department of Earth and Planetary Sciences (EPS) at Harvard University.
+He is a Ph.D. student at Nanyang Technological University (NTU), Singapore, advised by Prof. Ziwei Wang. He received his B.Eng. degree from Tsinghua University, China, in 2025. His research interests include robotics, artificial intelligence, and reinforcement learning.
 
 #### Contact
 
-Email: senli[at]fas.harvard.edu
+Email: yuquan002[at]e.ntu.edu.sg
+WeChat: xxReinsnoTHU
 
 #### Education
-M.E., Computer Science and Technology, China University of Mining and Technology, 2022—2025.\
-B.E., Data Science and Big Data Technology, China University of Mining and Technology, 2018—2022.
+
+B.Eng., Elite Program of Mechanical Engineering, Tsinghua University, 2021-2025\
+Pursuing Ph.D., School of Electrical and Electronic Engineering, Nanyang Technological University, 2025-Present
 
 #### Research Interests
-Deep Learning, Artificial Intelligence Seismology, Mine Microseismic.
 
+- Robotics\
+- Artificial Intelligence\
+- Reinforcement Learning
