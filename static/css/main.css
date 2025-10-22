@@ -14,7 +14,7 @@
 }
 
 #home-subtitle {  
-    font-family:  "PingFang SC", "苹方-简", Arial,-apple-system, BlinkMacSystemFont, sans-serif !important;  
+    font-family:  "Arial", "PingFang SC", "苹方-简", -apple-system, BlinkMacSystemFont, sans-serif !important;  
 }
 
 .header {
@@ -149,3 +149,15 @@ section .main-body {
 }
 
 
+.navbar-light .navbar-nav .nav-link {  
+    color: #e8e8e8 !important; /* 浅色文字 */  
+}  
+  
+.navbar-light .navbar-nav .nav-link:hover,  
+.navbar-light .navbar-nav .nav-link:focus {  
+    color: #64b5f6 !important; /* 悬停时浅蓝色 */  
+}  
+  
+.navbar-light .navbar-nav .nav-link.active {  
+    color: #90caf9 !important; /* 激活状态更亮的蓝色 */  
+}
