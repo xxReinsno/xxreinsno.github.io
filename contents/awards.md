@@ -6,7 +6,7 @@
 
 ## 2024
 
-- Nancal Corporation Scholarship, 2024
+- Nancal Corporation Scholarship, Department of Mechanical Engineering, Tsinghua University, 2024
 
 ## 2023
 
