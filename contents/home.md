@@ -16,4 +16,4 @@ Xue Yuquan is a Ph.D. student at Nanyang Technological University (NTU), Singapo
 - Robotics 🤖
 - Artificial Intelligence 🧠
 - Reinforcement Learning 🎯
-- Multimodal Learning 🌐
+- World Model 🌍
