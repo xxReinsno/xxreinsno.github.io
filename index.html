@@ -37,6 +37,7 @@
                 <li><a href="#profile">Profile</a></li>
                 <li><a href="#publications">Publications</a></li>
                 <li><a href="#awards">Awards</a></li>
+                <li><a class="nav-cta" href="projects.html">Projects</a></li>
             </ul>
         </nav>
     </header>
@@ -83,7 +84,6 @@
                         <source srcset="static/assets/img/profile.webp" type="image/webp">
                         <img class="portrait" src="static/assets/img/profile.PNG" width="480" height="480" alt="Portrait of Xue Yuquan" decoding="async">
                     </picture>
-                    <span class="portrait-accent" aria-hidden="true"></span>
                 </div>
             </div>
         </section>
@@ -91,129 +91,105 @@
         <section class="section profile-section" id="profile" aria-labelledby="profile-title">
             <div class="container">
                 <div class="section-heading">
-                    <p class="section-kicker">Profile</p>
-                    <h2 id="profile-title">Building intelligent systems for the physical world.</h2>
-                    <p>
+                    <h2 id="profile-title">Profile</h2>
+                </div>
+
+                <div class="profile-listing content-card">
+                    <p class="profile-summary">
                         He received his B.Eng. degree from Tsinghua University (THU), China. His research interests
                         include robotics, artificial intelligence, reinforcement learning, and multimodal learning.
                     </p>
-                </div>
 
-                <div class="profile-grid">
-                    <article class="info-card education-card">
-                        <div class="card-icon" aria-hidden="true">
-                            <svg viewBox="0 0 24 24"><path d="m2 8 10-5 10 5-10 5L2 8Zm3 3.2 7 3.5 7-3.5V17c-1.7 1.4-4 2-7 2s-5.3-.6-7-2v-5.8Z"/></svg>
-                        </div>
-                        <div>
-                            <h3>Education</h3>
-                            <ol class="education-list">
-                                <li>
-                                    <span class="education-date">2025—Present</span>
-                                    <strong>Ph.D., Electrical and Electronic Engineering</strong>
-                                    <span>Nanyang Technological University</span>
-                                </li>
-                                <li>
-                                    <span class="education-date">2021—2025</span>
-                                    <strong>B.Eng., Elite Program of Mechanical Engineering</strong>
-                                    <span>Tsinghua University</span>
-                                </li>
-                            </ol>
-                        </div>
-                    </article>
+                    <section class="list-block" aria-labelledby="education-title">
+                        <h3 id="education-title">Education</h3>
+                        <ul class="plain-list education-list">
+                            <li><strong>2025—Present:</strong> Ph.D., School of Electrical and Electronic Engineering, Nanyang Technological University</li>
+                            <li><strong>2021—2025:</strong> B.Eng., Elite Program of Mechanical Engineering, Tsinghua University</li>
+                        </ul>
+                    </section>
 
-                    <div class="profile-stack">
-                        <article class="info-card">
-                            <div class="card-icon" aria-hidden="true">
-                                <svg viewBox="0 0 24 24"><path d="M12 2a7 7 0 0 0-4 12.7V19h8v-4.3A7 7 0 0 0 12 2Zm-3 19h6v1H9v-1Zm1-4v-3.4l-.5-.3A5 5 0 1 1 14.5 13l-.5.3V17h-4Z"/></svg>
-                            </div>
-                            <div>
-                                <h3>Research Interests</h3>
-                                <ul class="interest-list">
-                                    <li>Robotics</li>
-                                    <li>Artificial Intelligence</li>
-                                    <li>Reinforcement Learning</li>
-                                    <li>World Model</li>
-                                </ul>
-                            </div>
-                        </article>
+                    <section class="list-block" aria-labelledby="interests-title">
+                        <h3 id="interests-title">Research Interests</h3>
+                        <ul class="plain-list">
+                            <li>Robotics</li>
+                            <li>Artificial Intelligence</li>
+                            <li>Reinforcement Learning</li>
+                            <li>World Model</li>
+                        </ul>
+                    </section>
 
-                        <article class="info-card contact-card">
-                            <div class="card-icon" aria-hidden="true">
-                                <svg viewBox="0 0 24 24"><path d="M3 5h18v14H3V5Zm9 7 7-5H5l7 5Zm0 2.5L5 9.7V17h14V9.7l-7 4.8Z"/></svg>
-                            </div>
-                            <div>
-                                <h3>Contact</h3>
-                                <a href="mailto:yuquanxue9@gmail.com">yuquanxue9@gmail.com</a>
-                            </div>
-                        </article>
-                    </div>
+                    <section class="list-block" aria-labelledby="contact-title">
+                        <h3 id="contact-title">Contact</h3>
+                        <p><a href="mailto:yuquanxue9@gmail.com">yuquanxue9@gmail.com</a></p>
+                    </section>
                 </div>
             </div>
         </section>
 
         <section class="section publications-section" id="publications" aria-labelledby="publications-title">
             <div class="container">
-                <div class="section-heading compact">
-                    <p class="section-kicker">Research</p>
+                <div class="section-heading">
                     <h2 id="publications-title">Publications</h2>
-                    <p>Selected work in robot learning and data-efficient manipulation.</p>
                 </div>
 
-                <article class="publication-card">
-                    <div class="publication-meta">
-                        <span class="status-badge">Submitted</span>
-                        <span>2025</span>
-                    </div>
-                    <h3>RESample: A Robust Data Augmentation Framework via Exploratory Sampling for Robotic Manipulation</h3>
-                    <p class="publication-authors">
-                        <strong>Yuquan Xue</strong>, Guanxing Lu, Zhenyu Wu, Chuanrui Zhang, Bofang Jia,
-                        Zhengyi Gu, Yansong Tang, Ziwei Wang*
-                    </p>
-                    <a class="text-link" href="https://arxiv.org/abs/2510.17640">
-                        View on arXiv
-                        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg>
-                    </a>
-                </article>
+                <div class="publication-list">
+                    <article class="publication-item">
+                        <p class="publication-meta">Preprint · 2026</p>
+                        <h3>WorldSample: Closed-loop Real-robot RL with World Modelling</h3>
+                        <p class="publication-authors">
+                            <strong>Yuquan Xue</strong>, Le Xu, Zeyi Liu, Zhenyu Wu, Zhengyi Gu,
+                            Xinyang Song, Bofang Jia, Ziwei Wang†
+                        </p>
+                    </article>
+
+                    <article class="publication-item">
+                        <p class="publication-meta">Submitted · 2025</p>
+                        <h3>RESample: A Robust Data Augmentation Framework via Exploratory Sampling for Robotic Manipulation</h3>
+                        <p class="publication-authors">
+                            <strong>Yuquan Xue</strong>, Guanxing Lu, Zhenyu Wu, Chuanrui Zhang, Bofang Jia,
+                            Zhengyi Gu, Yansong Tang, Ziwei Wang*
+                        </p>
+                        <a class="text-link" href="https://arxiv.org/abs/2510.17640">View on arXiv</a>
+                    </article>
+                </div>
             </div>
         </section>
 
         <section class="section awards-section" id="awards" aria-labelledby="awards-title">
             <div class="container">
-                <div class="section-heading compact">
-                    <p class="section-kicker">Recognition</p>
+                <div class="section-heading">
                     <h2 id="awards-title">Awards</h2>
-                    <p>Academic, creative, and engineering distinctions.</p>
                 </div>
 
-                <div class="awards-grid">
-                    <article class="award-year featured">
-                        <span class="year">2025</span>
+                <div class="awards-list content-card">
+                    <section class="award-year" aria-labelledby="awards-2025">
+                        <h3 id="awards-2025">2025</h3>
                         <ul>
                             <li>Outstanding Graduation Award, Tsinghua University</li>
                             <li>Bronze Prize, National Finals of the 8th “Jingdiao Cup” Graduation Design Competition, 2025</li>
                             <li>Golden Prize, Northern China Regional Finals of the 8th “Jingdiao Cup” Graduation Design Competition, 2025</li>
                         </ul>
-                    </article>
-                    <article class="award-year">
-                        <span class="year">2024</span>
+                    </section>
+                    <section class="award-year" aria-labelledby="awards-2024">
+                        <h3 id="awards-2024">2024</h3>
                         <ul>
                             <li>Nancal Corporation Scholarship, Department of Mechanical Engineering, Tsinghua University, 2024</li>
                         </ul>
-                    </article>
-                    <article class="award-year">
-                        <span class="year">2023</span>
+                    </section>
+                    <section class="award-year" aria-labelledby="awards-2023">
+                        <h3 id="awards-2023">2023</h3>
                         <ul>
                             <li>Academic Excellence Scholarship, Tsinghua University, 2023</li>
                             <li>Artistic Work Excellence Scholarship, Tsinghua University, 2023</li>
                         </ul>
-                    </article>
-                    <article class="award-year">
-                        <span class="year">2022 and Earlier</span>
+                    </section>
+                    <section class="award-year" aria-labelledby="awards-earlier">
+                        <h3 id="awards-earlier">2022 and Earlier</h3>
                         <ul>
                             <li>Comprehensive Excellence Scholarship, Tsinghua University, 2022</li>
                             <li>Outstanding Students from Shandong Province, Shandong Provincial Government, 2021</li>
                         </ul>
-                    </article>
+                    </section>
                 </div>
             </div>
         </section>

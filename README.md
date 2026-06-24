@@ -7,6 +7,7 @@ The site is deliberately built as lightweight static HTML. It has no build step,
 ## Edit the site
 
 - Update biography, publications, awards, metadata, and links directly in `index.html`.
+- Update project cards in `projects.html`; each project should link to its dedicated project page.
 - Update presentation in `static/css/main.css`.
 - Update the accessible mobile navigation in `static/js/scripts.js`.
 - Keep the optimized WebP images referenced by the page. The PNG files are retained as source and browser fallbacks.
